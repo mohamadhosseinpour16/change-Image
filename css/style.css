@@ -1,0 +1,39 @@
+/* var */
+:root {
+  --bg-body--: #404041;
+  --bg-button--: #f6ede3;
+}
+* {
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--bg-body--);
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+}
+main > img {
+  width: 40%;
+  border-radius: 3rem;
+}
+main > button {
+  border: none;
+  outline: none;
+  padding: 1rem 1.5rem;
+  margin: 2rem;
+  border-radius: 2rem;
+  background-color: var(--bg-button--);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  cursor: pointer;
+}
